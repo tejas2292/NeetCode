@@ -1,3 +1,6 @@
+// Time Complexity: O(m * n log n) 
+// Space Complexity: O(n * m)
+
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         // Edge case
