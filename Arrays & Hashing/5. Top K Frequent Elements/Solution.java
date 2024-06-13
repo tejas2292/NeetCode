@@ -1,3 +1,6 @@
+// Time Complexity : O(NLogN)
+// Space Complexity : O(N)
+
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
